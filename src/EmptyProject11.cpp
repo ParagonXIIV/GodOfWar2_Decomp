@@ -161,7 +161,7 @@ int WINAPI wWinMain( _In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
 
     DXUTInit( true, true, nullptr ); // Parse the command line, show msgboxes on error, no extra command line params
     DXUTSetCursorSettings( true, true ); // Show the cursor and clip it when in full screen
-    DXUTCreateWindow( L"EmptyProject11" );
+    DXUTCreateWindow( L"GOW2" );
 
     // Only require 10-level hardware or later
     DXUTCreateDevice( D3D_FEATURE_LEVEL_10_0, true, 800, 600 );
